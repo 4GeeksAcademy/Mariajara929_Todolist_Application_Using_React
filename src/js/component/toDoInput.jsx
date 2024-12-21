@@ -12,6 +12,6 @@ export const ToDoInput = ({ toDoList, setToDoList }) => {
         }
     }
     return (
-        <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} onKeyDown={e => addToDo(e)} />
+        <input className="col-6 alert alert-light" value={inputValue} onChange={(e) => setInputValue(e.target.value)} onKeyDown={e => addToDo(e)} />
     )
 }
