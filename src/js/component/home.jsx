@@ -11,7 +11,7 @@ const Home = () => {
 	}
 	return (
 		<div className="container d-flex flex-column justify-content-center align-items-center">
-			<h1 className="alert alert-primary">To Do's</h1>
+			<h1 className="alert text-secondary">To Do's</h1>
 			<ToDoInput toDoList={toDoList} setToDoList={setToDoList} />
 			{toDoList.map((value, index) => <div className="alert alert-dark col-6 d-flex justify-content-between">
 				<p>	{value} </p>
